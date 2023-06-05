@@ -1,0 +1,6 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ursur3vp/public_html/
+    - /bin/cp -R * $DEPLOYPATH
